@@ -10,8 +10,7 @@
 <p> to compile program invoke g++ compiler through following command </p>
 <p>g++ <filename.cpp>; </p>
 <p>usually g++ compiler generates a.out file after successfully compiled C++ program which can be executed on linux through ./a.out </p>
-<p>to compile C++23 standard code you just need to add one parameter </p>
-<p>g++ <filename.cpp> -std=c++23; </p>
-<p>to generate manual output filename you just need to pass one parameter like this </p>
-<p> g++ <filename.cpp> -o output -std=c++23; </p>
-<p>above listed command generate output file which can be executed through ./output </p>
+
+<p>To compile C++23–specific code using g++ or clang++, append the parameter -std=c++20 to the command line </p>
+<p>g++  <filename.cpp> -std=c++23; </p>
+<p>clang++ <filename.cpp> -std=c++23</p>
