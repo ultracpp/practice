@@ -2,8 +2,8 @@
 
 int main()
 {
-    const unsigned short int length = 5;
-    unsigned short int myArray[length] = {1, 2, 3, 4, 5};
+    const unsigned short int length = 4;
+    unsigned short int myArray[length] = {1, 2, 3, 4};
 
     for (unsigned short int index = 0; index < length; index++)
     {
@@ -16,6 +16,9 @@ int main()
     {
         std::cout << "Address of MyArray [" << index << "] = " << &myArray[index] << std::endl;
     }
+
+    std::cout << std::endl;
+    std::cout << "size of MyArray is  : " << sizeof(myArray) << std::endl;
 
     return 0;
 }
