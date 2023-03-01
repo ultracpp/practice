@@ -23,6 +23,8 @@ void memoryRequest()
     {
         std::cout << "[" << index << "] = " << *(createMemoryBlocks + index) << std::endl;
     }
+
+    delete[] createMemoryBlocks;
 };
 
 int main()
