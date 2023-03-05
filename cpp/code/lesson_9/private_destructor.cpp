@@ -18,9 +18,9 @@ public:
     {
         mail = address;
     }
-    static void remove(EmailAccount *user)
+    static void remove(EmailAccount *account)
     {
-        delete user;
+        delete account;
     }
 };
 
